@@ -1,0 +1,93 @@
+.cls-1{fill:#7f4f25;}
+.cls-2{fill:#008e39;}
+.cls-3{fill:#fbea1c;}
+.cls-4{fill:#662681;}
+.cls-5{fill:#e5352b;}
+.cls-6{fill:#f29104;}
+.cls-7{fill:#be1823;}
+
+body{
+  background-color: navy;
+}
+
+#kerstboom{
+  height: 65vh;
+  margin: 20vh 10vw 0;
+}
+
+#grond{
+  height: 12vh;
+  background-color: white;
+}
+
+h1{
+  font-size: 15vh;
+  color: white;
+  font-family: kari-display-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.merychristmas{
+  position: absolute;
+  top: 10vh;
+  right: 10vw;
+}
+
+.klasse1 {
+	color: #008e39;
+}
+
+.cls-4{
+  animation-name: kerstballenpaars;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+.cls-5{
+  animation-name: kerstballenoranje;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+.cls-6{
+  animation-name: kerstballengeel;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes kerstballenpaars{
+  0%{
+    opacity:1;
+  }
+  50%{
+    opacity:0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+@keyframes kerstballenoranje{
+  0%{
+    opacity:0;
+  }
+  50%{
+    opacity:1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+
+@keyframes kerstballengeel{
+  25%{
+    opacity:1;
+  }
+  50%{
+    opacity:0;
+  }
+  75%{
+    opacity: 1;
+  }
+}
